@@ -2,11 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
+  padding: 0 10px; /* Add horizontal padding to create space at the edges */
+  box-sizing: border-box;
 }
 
 .item {
-  flex: 0 1 auto; /* Don't shrink, allow wrapping */
-  margin: 10px 0;  /* Optional: vertical spacing between rows */
+  flex: 0 1 auto;  /* Don't shrink too much, allow auto-sizing */
+  margin-bottom: 10px; /* Space between rows if wrapped */
 }
