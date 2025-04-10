@@ -1,2 +1,12 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 0 1 auto; /* Don't shrink, allow wrapping */
+  margin: 10px 0;  /* Optional: vertical spacing between rows */
+}
